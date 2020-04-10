@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StonkIt</string>
+    <string name="choose_picture">Escolha a imagem</string>
+    <string name="crop_picture">Cortar imagem</string>
+    <string name="next">continuar</string>
+    <string name="re_crop">Recortar imagem</string>
+    <string name="share">Compartilhar</string>
+    <string name="text">Texto</string>
+    <string name="save">"Salve "</string>
+    <string name="cancel">Cancelar</string>
+    <string name="enter_text">Introduza o texto do seu autocolante</string>
+    <string name="large">Grande</string>
+    <string name="select_action">ação Selecionar</string>
+    <string name="select_camera">Capturar uma foto da câmera</string>
+    <string name="select_gallery">Selecione uma foto da galeria</string>
+    <string name="small">Pequeno</string>
+    <string name="xtrasmall">XtraPequeno</string>
+    <string name="ad_no_internet">Parece que o anúncio não poderia carregar, isso geralmente significa que você não está conectado à internet, mas também poderia ser que os anúncios atualmente não estão funcionando.</string>
+    <string name="share_using">Compartilhar imagem usando</string>
+    <string name="error_should_not_happen">ERRO: Oops Isso não deve acontecer, tente novamente.</string>
+    <string name="error_went_wrong">ERRO: Algo deu errado ao salvar o arquivo, tente novamente.</string>
+    <string name="image_failed_to_save">Falhou!</string>
+    <string name="image_saved">Imagem salva!</string>
+    <string name="stonks_size">Selecione o tamanho de Stonks</string>
+    <string name="permissions">Você precisa ativar as permissões para poder tirar fotos e salvá-las.</string>
+    <string name="caption_size">escolha o tamanho da legenda</string>
+    <string name="add_caption">Adicionar Caption</string>
+    <string name="remove_caption">Remover Caption</string>
+</resources>

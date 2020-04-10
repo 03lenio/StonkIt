@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">StonkIt</string>
+    <string name="choose_picture">Choose Picture</string>
+    <string name="next">Next</string>
+    <string name="crop_picture">Crop Picture</string>
+    <string name="re_crop">Re-Crop Picture</string>
+    <string name="text">Text</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="select_action">Select Action</string>
+    <string name="select_gallery">Select photo from gallery</string>
+    <string name="select_camera">Capture photo from camera</string>
+    <string name="enter_text">Enter the text of your sticker</string>
+    <string name="ad_no_internet">It seems like the ad could not load, this usually means you are not connected to the internet, but it also could be that ads currently are not working.</string>
+    <string name="xtrasmall">XtraSmall</string>
+    <string name="small">Small</string>
+    <string name="large">Large</string>
+    <string name="share_using">Share image using</string>
+    <string name="cancel">Cancel</string>
+    <string name="image_saved">Image Saved!</string>
+    <string name="image_failed_to_save">Failed!</string>
+    <string name="error_went_wrong">ERROR: Something went wrong while saving the file, try again.</string>
+    <string name="error_should_not_happen">ERROR: Oops That should not happen, try again.</string>
+    <string name="stonks_size">Select Stonks-Size</string>
+    <string name="permissions">You have to grant photo and file permissions, so the app can take photos for your memes, and then save them.</string>
+    <string name="caption_size">Select your caption-size</string>
+    <string name="add_caption">Add Caption</string>
+    <string name="remove_caption">Remove Caption</string>
+</resources>

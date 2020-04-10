@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "936173339562",
+    "firebase_url": "https://stonkit-2b1df.firebaseio.com",
+    "project_id": "stonkit-2b1df",
+    "storage_bucket": "stonkit-2b1df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936173339562:android:dd094478f993d31e2a21d3",
+        "android_client_info": {
+          "package_name": "de.liquid.stonkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936173339562-f5v65s2bm57nhqgga5c5jj9tpmgobtdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBafnN3YagwIBuuoPppriSpqozZcUAc1m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936173339562-f5v65s2bm57nhqgga5c5jj9tpmgobtdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

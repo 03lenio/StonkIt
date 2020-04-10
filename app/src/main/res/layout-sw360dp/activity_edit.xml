@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stickerview.EditActivity">
+
+    <Button
+        android:id="@+id/captionOffBtn"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="151dp"
+        android:text="@string/remove_caption"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/canvas"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/canvas"
+        app:layout_constraintTop_toTopOf="@+id/captionBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/captionBtn"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="151dp"
+        android:text="Add Caption"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/stonksBtn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/cropBtn"
+        app:layout_constraintTop_toTopOf="@+id/textStickerBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/cropBtn"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="@string/crop_picture"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/stonksBtn"
+        app:layout_constraintStart_toStartOf="@+id/canvas"
+        app:layout_constraintTop_toTopOf="@+id/stonksBtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/textStickerBtn"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="499dp"
+        android:layout_marginBottom="184dp"
+        android:text="@string/text"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/stonksBtn"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toStartOf="@+id/cropBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/stonksBtn"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        android:text="Stonks"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/textStickerBtn"
+        app:layout_constraintEnd_toEndOf="@+id/canvas"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textStickerBtn"
+        app:layout_constraintVertical_bias="0.0"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="@+id/shareBtn"
+        app:layout_constraintEnd_toEndOf="@+id/captionOffBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/shareBtn"
+        app:layout_constraintTop_toTopOf="@+id/captionOffBtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="593dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="90dp"
+        android:text="@string/share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:text="←"
+        app:layout_constraintBottom_toBottomOf="@+id/shareBtn"
+        app:layout_constraintEnd_toEndOf="@+id/shareBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/captionOffBtn"
+        app:layout_constraintTop_toTopOf="@+id/shareBtn" />
+
+    <FrameLayout
+        android:id="@+id/canvas"
+        android:layout_width="367dp"
+        android:layout_height="351dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/editPresetEdit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/select" />
+
+        <View
+            android:id="@+id/caption"
+            style="@style/Divider"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="top" />
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/stonks"
+        android:layout_width="108dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="518dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stonks_best" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

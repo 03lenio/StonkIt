@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StonkIt</string>
+    <string name="choose_picture">Wähle ein Bild</string>
+    <string name="crop_picture">Bild zuschneiden</string>
+    <string name="next">weiter</string>
+    <string name="re_crop">"Bild erneut zuschneiden "</string>
+    <string name="save">Speichern</string>
+    <string name="share">Teilen</string>
+    <string name="text">Text</string>
+    <string name="large">Groß</string>
+    <string name="select_action">Wähle eine quelle</string>
+    <string name="select_camera">Nehme ein Foto auf</string>
+    <string name="select_gallery">Wähle ein Foto aus der Gallerie</string>
+    <string name="small">Klein</string>
+    <string name="xtrasmall">XtraKlein</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="enter_text">Gib den Text deines Sticker ein</string>
+    <string name="ad_no_internet">Es scheint, dass die Anzeige nicht geladen werden konnte. Dies bedeutet normalerweise, dass sie nicht mit dem Internet verbunden sind. Es kann jedoch auch sein, dass Anzeigen derzeit nicht funktionieren.</string>
+    <string name="share_using">Bild teilen mit</string>
+    <string name="image_failed_to_save">Fehlgeschlagen!</string>
+    <string name="image_saved">Bild gespeichert!</string>
+    <string name="stonks_size">Stonk-Größe auswählen</string>
+    <string name="error_should_not_happen">FEHLER: Ups, das sollte nicht passieren, versuche es nochmal.</string>
+    <string name="error_went_wrong">FEHLER: Beim speichern deiner Datei ist ein Fehler aufgetreten, versuche es nochmal.</string>
+    <string name="permissions">Du musst die app berechtigungen akzeptieren, um fotos aufzunehmen und bilder zu speichern</string>
+    <string name="caption_size">Caption-Größe auswählen</string>
+    <string name="add_caption">Caption hinzufügen</string>
+    <string name="remove_caption">Caption entfernen</string>
+</resources>

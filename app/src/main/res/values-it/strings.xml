@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StonkIt</string>
+    <string name="choose_picture">Scegli immagine</string>
+    <string name="crop_picture">Ritaglia l\'immagine</string>
+    <string name="next">continuare</string>
+    <string name="re_crop">Ritaglia l\'immagine di nuovo</string>
+    <string name="save">Salva</string>
+    <string name="share">condividere</string>
+    <string name="text">Testo</string>
+    <string name="enter_text">Inserisci il testo del tuo sticker</string>
+    <string name="large">Grande</string>
+    <string name="select_action">Scegli una fonte</string>
+    <string name="select_camera">Cattura una foto dalla fotocamera</string>
+    <string name="select_gallery">Seleziona una foto dalla galleria</string>
+    <string name="cancel">Annullare</string>
+    <string name="small">Piccolo</string>
+    <string name="xtrasmall">XtaPiccolo</string>
+    <string name="ad_no_internet">Sembra che l\'annuncio non possa essere caricato, questo di solito significa che non sei connesso a Internet, ma potrebbe anche essere che gli annunci al momento non funzionino.</string>
+    <string name="share_using">Condividi immagine usando</string>
+    <string name="error_should_not_happen">ERRORE: Questo non dovrebbe succedere, riprova.</string>
+    <string name="error_went_wrong">ERRORE: Qualcosa è andato storto durante il salvataggio del file, riprovare.</string>
+    <string name="image_failed_to_save">Fallito!</string>
+    <string name="image_saved">Immagine salvata!</string>
+    <string name="stonks_size">Seleziona la Stonks-Size</string>
+    <string name="permissions">È necessario abilitare le autorizzazioni per poter scattare foto e salvarle.</string>
+    <string name="caption_size">Seleziona la Caption-Size</string>
+    <string name="add_caption">Aggiungere una Caption</string>
+    <string name="remove_caption">Rimuovi Caption</string>
+
+</resources>
